@@ -1,6 +1,5 @@
 package com.users.app.count.service;
 
-import com.users.app.count.exception.CannotCreateUserJsonException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -16,7 +15,7 @@ public class UserServiceTest {
     private UserService userService;
 
     @Test
-    public void testM() throws CannotCreateUserJsonException {
+    public void testGetUserDataJsonResponse() {
         String id = "octocat";
 
         ResponseEntity<String> jsonResponse = userService.getUserDataJsonResponse(id);

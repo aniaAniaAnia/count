@@ -1,8 +1,5 @@
 package com.users.app.count.user;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
-
 public class UserJsonResp {
     private String id;
     private String login;

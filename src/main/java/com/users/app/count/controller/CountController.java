@@ -1,7 +1,6 @@
 package com.users.app.count.controller;
 
 import com.users.app.count.domain.UserData;
-import com.users.app.count.exception.CannotCreateUserJsonException;
 import com.users.app.count.repository.UserRepository;
 import com.users.app.count.service.UserService;
 import lombok.NonNull;

@@ -1,6 +1,5 @@
 package com.users.app.count.domain;
 
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
